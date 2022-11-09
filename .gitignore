@@ -133,3 +133,7 @@ dmypy.json
 target/
 dbt_modules/
 logs/
+
+# dbt-devcontainer
+dbt-profiles/*
+!dbt-profiles/.gitkeep
