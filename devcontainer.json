@@ -3,7 +3,7 @@
     "name": "dbt",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "dbt",
-    "workspaceFolder": "/workspaces/dbt-devcontaine",
+    "workspaceFolder": "/workspaces/dbt-devcontainer",
     "settings": {
         "terminal.integrated.defaultProfile.linux#": "/bin/bash",
         "python.pythonPath": "/usr/local/bin/python",
