@@ -8,4 +8,3 @@ COPY requirements.txt /tmp/pip-tmp/
 RUN pip3 --disable-pip-version-check --use-deprecated=legacy-resolver --no-cache-dir install -r /tmp/pip-tmp/requirements.txt \
     && rm -rf /tmp/pip-tmp
 
-ENV DBT_PROFILES_DIR=/dbt/dbt-profiles
